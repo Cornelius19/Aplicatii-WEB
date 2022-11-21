@@ -22,12 +22,33 @@ p{
     background:yellow;
     
 }
+
+.container{
+    display:grid;
+
+    height: 300px;
+    padding: 20px;
+    border: 1px solid black ;
+}
+
+.container-child{
+    border: 10px solid black ;
+    margin-bottom: 5px;
+}
+.container-2{
+    border: 12px solid blue;
+    margin-bottom: 10px
+}
+
+#last{
+    border: 12px solid red
+}
     </style>
     <body>
-        <h1 class="h1" style="color:rgb(42, 57, 57); font-size: 25px;" >
+        <h1 class="h1 header" style="color:rgb(42, 57, 57); font-size: 25px;" >
             Web programming!
         </h1>
-        <p class="paragraf">
+        <p class="paragraf" id="nume">
             this is a simple webpage for ...
         </p>
         <p style="color:aquamarine; background-color:rgba(75, 75, 155, 0.721)">
@@ -37,5 +58,16 @@ p{
             asl;dkfjas;ldfkjasdf
 
         </p>
+        <button >
+            adadad
+        
+        </button>
+        <div class="container">
+            <div class="container-child"></div>
+            <div class="container-child"></div>
+            <div class="container-2"></div>
+            <div class="container-2" id="last"></div>
+        </div>
+        
     </body>
 </html>

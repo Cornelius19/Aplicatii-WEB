@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+    </head>
+        <body>
+            <script>
+                let a = 1;
+                let b = 2
+                let c = a + b;
+                console.log(a,b,c);
+
+                const d = 1.34;
+                const e = "aceasta e un sir de caractere";
+                const f = 'Acesta e un sir de caractere';
+                const g = 'acesta e un sir de caractere cu valori dinamice pentru a, A = &(a)';
+
+                const h = true;
+                const i = false;
+
+                let j = undefined;
+                let k = null;
+
+                console.log(d==c)
+                console.log(e!=f)
+                console.log(e!==f)
+
+
+                if (a % 2==0){
+                    console.log('numarul ' + a + ' este par');
+                }
+                else{
+                    console.log('numarul '+ a +' este impar');
+                    }
+                
+                let s = 1;
+                let n = 10;
+                for(let i = 1; i<n+1;i++){
+                    s = s * i;
+                }
+                console.log(s);
+                let arr1 = [1,2,4,6,8];
+                let arr2 = ['a','b','c','d'];
+
+                console.log(arr1);
+                console.log(arr2);
+                console.log('Primul element din arr1 este '+arr1[0]+'');
+                arr1[2] = 10;
+                arr2[-1] = 10;
+                console.log(arr2);
+
+                
+            </script>
+        </body>
+</html>
